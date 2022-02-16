@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM - Basic Revision for ES6</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div id="friend-list-container" class="container">
+        <div class="single-friend">
+            <h4>Friend Two</h4>
+            <p>I am two friend</p>
+        </div>
+        <div class="single-friend">
+            <h4>Friend Two</h4>
+            <p>I am two friend</p>
+        </div>
+        <div class="single-friend">
+            <h4>Friend three</h4>
+            <p>I am three friend</p>
+        </div>
+        <div class="single-friend">
+            <h4>Friend four</h4>
+            <p>I am four friend</p>
+        </div>
+        <div class="single-friend">
+            <h4>Friend Five</h4>
+            <p>I am five friend</p>
+        </div>
+    </div>
+    <div class="friend-control">
+        <button onclick="friendControl('addBorder')" id="addBorder" class="btn btn-primary mt-2">Add Border & Padding</button>
+        <button onclick="friendControl('addFriend')" id="addFriend"  class="btn btn-primary mt-2">Add Friend</button>
+        <button onclick="friendControl('addBackground')" id="addBackground" class="btn btn-primary  mt-2">Add Background</button>
+        <button onclick="friendControl('deleteFriend')" id="deleteFriend" class="btn btn-primary mt-2">Delete Friend</button>
+    </div>
+    <script src="dom.js"></script>
+</body>
+</html>
